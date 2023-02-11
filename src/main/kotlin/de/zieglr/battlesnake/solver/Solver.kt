@@ -72,7 +72,7 @@ class Solver constructor(private val timeout: Long) {
         return max(board, maxDepth, Int.MIN_VALUE, Int.MAX_VALUE)
     }
 
-    // my snake => return (score, move)
+    // my snake
     private fun max(board: Board, remainDepth: Int, alpha: Int, beta: Int): Pair<Int, Int> {
         if (Thread.currentThread().isInterrupted) {
             return Pair(0, noMove)

@@ -1,1 +1,1 @@
-rootProject.name = "battlesnake-min-max"
+rootProject.name = "battlesnake-minimax"

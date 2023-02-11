@@ -60,7 +60,7 @@ tasks.test {
 
 ktor {
     docker {
-        localImageName.set("battlesnake-min-max")
+        localImageName.set("battlesnake-minimax")
         imageTag.set("1.0.0")
         portMappings.set(listOf(
             io.ktor.plugin.features.DockerPortMapping(
